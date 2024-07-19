@@ -1,0 +1,226 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.container {
+  text-align: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: auto;
+}
+
+.box-text {
+  padding-bottom: 3rem;
+}
+.text {
+  text-align: justify;
+  font-size: 1.3rem;
+  line-height: 1.94118;
+  font-weight: 400;
+}
+.destaque {
+  padding-bottom: 3rem;
+  background-color: #dedede;
+  padding: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.94118;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.destaque p {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.des-img {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+/* Basic styling for the dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  justify-content: space-between;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 100%;
+  padding: 12px 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: 0;
+}
+
+.dropdown-content p {
+  margin: 0;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.dropdown-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #662c92;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-button:hover {
+  background-color: #43054e;
+}
+
+.drop-img {
+  display: inline-flex;
+  justify-content: end;
+  padding: 0;
+  margin: 0;
+}
+
+.carousel-container {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.card {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 4rem;
+  text-align: justify;
+  font-size: 1.3rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.button {
+  background-color: #662c92;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.divisor {
+  width: 10%;
+  height: 4px;
+  background-color: #662c92;
+  margin: 20px 0;
+  border-radius: 2px;
+}
+h2 {
+  text-align: start;
+}
+
+.imagem img {
+  opacity: 0.9;
+  position: relative;
+}
+.imagem h1 {
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  left: 20%;
+  font-size: 2.5rem;
+  color: #662c92;
+}
+
+audio {
+  width: 100%;
+  height: 1rem;
+  margin: 20px auto;
+  display: block;
+  border: 2px solid #662c92;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+span {
+  display: flex;
+  justify-content: left;
+  margin-top: 1rem;
+}
+
+.barrinha {
+  width: 4px;
+  height: 20px;
+  background-color: #662c92;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+}
+
+.cover {
+  max-width: 100%;
+}
+.download-link {
+  background-color: #662c92;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  width: 30%;
+}
+.baixar {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.baixar h3 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.dev {
+  margin-top: 5rem;
+  font-size: 0.8rem;
+  color: #662c92;
+}
+.dev a {
+  text-decoration: none;
+  color: #662c92;
+}
+.dev a:hover {
+  color: #43054e;
+  text-decoration: underline;
+}
